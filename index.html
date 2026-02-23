@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>B2 Fashion — Gulshan, Dhaka</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+
+<!-- Custom Cursor -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <button class="close-menu" id="closeMenu" aria-label="Close">✕</button>
+  <a href="#home" onclick="closeMobileMenu()">Home</a>
+  <a href="#about" onclick="closeMobileMenu()">About</a>
+  <a href="#collections" onclick="closeMobileMenu()">Collections</a>
+  <a href="#services" onclick="closeMobileMenu()">Services</a>
+  <a href="#contact" onclick="closeMobileMenu()">Visit Us</a>
+</div>
+
+<!-- Navigation -->
+<nav id="navbar">
+  <a href="#home" class="logo">B<span>2</span> Fashion</a>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#collections">Collections</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#testimonials">Reviews</a></li>
+    <li><a href="#contact" class="nav-cta">Visit Us</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" aria-label="Open menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- ===== HOME PAGE ===== -->
+<section id="home">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="hero-circle"></div>
+
+  <div class="hero-content">
+    <div class="hero-label">Gulshan-1, Dhaka · Est. 2021</div>
+    <h1 class="hero-title">
+      Where Style<br>Meets <em>Excellence</em>
+    </h1>
+    <p class="hero-sub">
+      Export-quality fashion for the discerning dresser. Women's wear, men's clothing, bags, footwear, and exclusive accessories — all under one roof in the heart of Gulshan.
+    </p>
+    <div class="hero-actions">
+      <a href="#collections" class="btn-primary"><span>Explore Collections</span></a>
+      <a href="#contact" class="btn-secondary">Find Our Store →</a>
+    </div>
+  </div>
+
+  <div class="hero-stats">
+    <div class="stat-item">
+      <span class="stat-number">4.4</span>
+      <span class="stat-label">Google Rating</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">18+</span>
+      <span class="stat-label">Reviews</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">3</span>
+      <span class="stat-label">City Locations</span>
+    </div>
+  </div>
+
+  <div class="scroll-indicator">
+    <div class="scroll-line"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<!-- Brand Marquee -->
+<div class="brand-strip">
+  <div class="brand-scroll">
+    <span class="brand-item">Women's Wear</span>
+    <span class="brand-item">Men's Fashion</span>
+    <span class="brand-item">Exclusive Bags</span>
+    <span class="brand-item">Ladies Footwear</span>
+    <span class="brand-item">Accessories</span>
+    <span class="brand-item">Export Quality</span>
+    <span class="brand-item">Same-Day Delivery</span>
+    <span class="brand-item">In-Store Pickup</span>
+    <span class="brand-item">Women's Wear</span>
+    <span class="brand-item">Men's Fashion</span>
+    <span class="brand-item">Exclusive Bags</span>
+    <span class="brand-item">Ladies Footwear</span>
+    <span class="brand-item">Accessories</span>
+    <span class="brand-item">Export Quality</span>
+    <span class="brand-item">Same-Day Delivery</span>
+    <span class="brand-item">In-Store Pickup</span>
+  </div>
+</div>
+
+<!-- ===== ABOUT PAGE ===== -->
+<section id="about">
+  <div class="about-grid">
+    <div class="about-text reveal">
+      <div class="section-label">Our Story</div>
+      <h2 class="section-title">Fashion That <em>Speaks</em> for You</h2>
+      <p>B2 Fashion is one of Bangladesh's premier fashion destinations, offering a curated selection of export-quality attire for the modern woman and man. Inaugurated in Gulshan, Dhaka in September 2021 by celebrated performer Tahsan Khan, our brand has quickly become a beloved name in Dhaka's fashion scene.</p>
+      <p>Our CEO Sushrita Poddar Bithi and the entire B2 family are passionate about bringing international quality and style to every customer, with locations across Barisal, Chittagong, and our flagship Gulshan store.</p>
+      <div class="about-features">
+        <div class="feature-item reveal reveal-delay-1">
+          <div class="feature-icon">✦</div>
+          <div class="feature-title">Export Quality</div>
+          <div class="feature-desc">Premium garments meeting international standards</div>
+        </div>
+        <div class="feature-item reveal reveal-delay-2">
+          <div class="feature-icon">🚀</div>
+          <div class="feature-title">Same-Day Delivery</div>
+          <div class="feature-desc">Fast, reliable delivery within Gulshan area</div>
+        </div>
+        <div class="feature-item reveal reveal-delay-3">
+          <div class="feature-icon">🛍️</div>
+          <div class="feature-title">In-Store Experience</div>
+          <div class="feature-desc">Curated showroom with expert styling assistance</div>
+        </div>
+        <div class="feature-item reveal reveal-delay-4">
+          <div class="feature-icon">📦</div>
+          <div class="feature-title">Easy Pickup</div>
+          <div class="feature-desc">Click & collect from our Gulshan-1 store</div>
+        </div>
+      </div>
+    </div>
+    <div class="about-visual reveal reveal-delay-2">
+      <div class="about-card">
+        <div class="corner-accent"></div>
+        <div class="corner-accent-br"></div>
+        <div class="about-card-bg">B2</div>
+        <div class="about-card-rating">
+          <span class="rating-num">4.4</span>
+          <span class="stars">★★★★☆</span>
+          <span class="rating-label">Google Rating</span>
+        </div>
+        <div class="about-card-content">
+          <h3>Gulshan Flagship</h3>
+          <p>62 Gulshan Avenue, Road No-130<br>Gulshan South C/A, Dhaka-1212</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== COLLECTIONS PAGE ===== -->
+<section id="collections">
+  <div class="collections-header reveal">
+    <div>
+      <div class="section-label">What We Offer</div>
+      <h2 class="section-title">Our <em>Collections</em></h2>
+    </div>
+    <a href="#contact" class="btn-secondary">View All →</a>
+  </div>
+
+  <div class="collections-grid">
+    <div class="collection-card reveal">
+      <div class="collection-img coll-women">
+        <div class="collection-label">
+          <span class="coll-tag">Featured</span>
+          <span class="coll-name">Women's Fashion</span>
+          <span class="coll-arrow">Explore Collection →</span>
+        </div>
+      </div>
+    </div>
+    <div class="collection-card reveal reveal-delay-1">
+      <div class="collection-img coll-men">
+        <div class="collection-label">
+          <span class="coll-tag">For Him</span>
+          <span class="coll-name">Men's Wear</span>
+          <span class="coll-arrow">Explore →</span>
+        </div>
+      </div>
+    </div>
+    <div class="collection-card reveal reveal-delay-2">
+      <div class="collection-img coll-accessories">
+        <div class="collection-label">
+          <span class="coll-tag">Exclusive</span>
+          <span class="coll-name">Bags</span>
+          <span class="coll-arrow">Explore →</span>
+        </div>
+      </div>
+    </div>
+    <div class="collection-card reveal reveal-delay-3">
+      <div class="collection-img coll-footwear">
+        <div class="collection-label">
+          <span class="coll-tag">Ladies</span>
+          <span class="coll-name">Footwear</span>
+          <span class="coll-arrow">Explore →</span>
+        </div>
+      </div>
+    </div>
+    <div class="collection-card reveal reveal-delay-4">
+      <div class="collection-img coll-accessories" style="background: linear-gradient(160deg, #0a0a15 0%, #0f0f25 50%, #0a0a15 100%);">
+        <div class="collection-label">
+          <span class="coll-tag">Style</span>
+          <span class="coll-name">Accessories</span>
+          <span class="coll-arrow">Explore →</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SERVICES PAGE ===== -->
+<section id="services">
+  <div class="reveal" style="max-width: 600px;">
+    <div class="section-label">How We Serve You</div>
+    <h2 class="section-title">Shopping Made <em>Effortless</em></h2>
+  </div>
+  <div class="services-grid">
+    <div class="service-card reveal reveal-delay-1">
+      <span class="service-num">01</span>
+      <div class="service-icon">🏬</div>
+      <h3 class="service-name">In-Store Shopping</h3>
+      <p class="service-desc">Experience our beautifully curated showroom in Gulshan-1. Browse our full collection of export-quality fashion with personalized assistance from our style experts.</p>
+    </div>
+    <div class="service-card reveal reveal-delay-2">
+      <span class="service-num">02</span>
+      <div class="service-icon">🚚</div>
+      <h3 class="service-name">Same-Day Delivery</h3>
+      <p class="service-desc">Order and receive your fashion picks the same day within the Gulshan area. We value your time as much as your style — fast, safe, and reliable.</p>
+    </div>
+    <div class="service-card reveal reveal-delay-3">
+      <span class="service-num">03</span>
+      <div class="service-icon">📦</div>
+      <h3 class="service-name">In-Store Pickup</h3>
+      <p class="service-desc">Browse online or call ahead, then pick up your order at your convenience. Skip the wait and step straight into style at our Gulshan Avenue location.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TESTIMONIALS PAGE ===== -->
+<section id="testimonials">
+  <div class="reveal" style="max-width: 600px; margin: 0 auto; text-align: center;">
+    <div class="section-label" style="justify-content: center;">What Customers Say</div>
+    <h2 class="section-title">Loved by <em>Dhaka</em></h2>
+    <p style="color: rgba(250,249,246,0.5); font-size: 0.9rem; margin-top: -8px; margin-bottom: 0;">
+      Rated 4.4★ on Google · 18+ Reviews
+    </p>
+  </div>
+  <div class="testimonials-track">
+    <div class="testimonial-card reveal reveal-delay-1">
+      <p class="testimonial-text">Amazing collection and the quality really shows. You can tell these are export-grade garments. The staff was incredibly helpful in putting together the perfect outfit for my sister's wedding.</p>
+      <div class="testimonial-author">
+        <div class="author-avatar">R</div>
+        <div>
+          <div class="author-name">Rahela N.</div>
+          <div class="author-stars">★★★★★</div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-card reveal reveal-delay-2">
+      <p class="testimonial-text">Best fashion store in Gulshan! The variety is unmatched — from casual to formal, everything is there. I've been coming here since they opened and the quality has never disappointed.</p>
+      <div class="testimonial-author">
+        <div class="author-avatar">K</div>
+        <div>
+          <div class="author-name">Kamrul H.</div>
+          <div class="author-stars">★★★★★</div>
+        </div>
+      </div>
+    </div>
+    <div class="testimonial-card reveal reveal-delay-3">
+      <p class="testimonial-text">The bags collection alone is worth the visit. Exclusive designs you won't find anywhere else in Dhaka. Same-day delivery was super fast and the packaging was beautiful.</p>
+      <div class="testimonial-author">
+        <div class="author-avatar">S</div>
+        <div>
+          <div class="author-name">Sumaiya T.</div>
+          <div class="author-stars">★★★★☆</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT / VISIT US ===== -->
+<section id="contact">
+  <div class="reveal" style="margin-bottom: 60px;">
+    <div class="section-label">Find Us</div>
+    <h2 class="section-title">Visit <em>B2 Fashion</em></h2>
+  </div>
+  <div class="contact-grid">
+    <div class="contact-info reveal">
+      <div class="contact-item">
+        <div class="contact-icon">📍</div>
+        <div class="contact-detail">
+          <div class="contact-label">Address</div>
+          <div class="contact-value">62 Gulshan Avenue, Road No-130<br>Gulshan South C/A, Dhaka-1212, Bangladesh</div>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">🕐</div>
+        <div class="contact-detail">
+          <div class="contact-label">Opening Hours</div>
+          <div class="contact-value">
+            <div class="hours-grid">
+              <div class="hour-row"><span>Sat–Thu</span></div>
+              <div class="hour-row">10:00 AM – 9:00 PM</div>
+              <div class="hour-row"><span>Friday</span></div>
+              <div class="hour-row">3:00 PM – 9:00 PM</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">🚀</div>
+        <div class="contact-detail">
+          <div class="contact-label">Delivery & Pickup</div>
+          <div class="contact-value">In-store shopping · In-store pickup<br>Same-day delivery available</div>
+        </div>
+      </div>
+      <div class="contact-item">
+        <div class="contact-icon">🌐</div>
+        <div class="contact-detail">
+          <div class="contact-label">Online</div>
+          <div class="contact-value">
+            <a href="https://www.b2trendbd.com" target="_blank">www.b2trendbd.com</a>
+          </div>
+        </div>
+      </div>
+      <div class="contact-item" style="border-bottom: none;">
+        <div class="contact-icon">⭐</div>
+        <div class="contact-detail">
+          <div class="contact-label">Rating</div>
+          <div class="contact-value">4.4 / 5 on Google Reviews<br><span style="color: var(--gold);">★★★★☆</span> (18+ verified reviews)</div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="contact-form" style="margin-top: 50px;">
+        <h3>Send Us a <em style="font-style:italic; color: var(--gold);">Message</em></h3>
+        <div class="form-group">
+          <label>Your Name</label>
+          <input type="text" placeholder="e.g. Rahela Ahmed">
+        </div>
+        <div class="form-group">
+          <label>Phone / Email</label>
+          <input type="text" placeholder="+880 or email address">
+        </div>
+        <div class="form-group">
+          <label>Inquiry Type</label>
+          <select>
+            <option>Product Availability</option>
+            <option>Delivery Inquiry</option>
+            <option>Bulk / Corporate Order</option>
+            <option>Store Hours</option>
+            <option>General Question</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea placeholder="Tell us how we can help..."></textarea>
+        </div>
+        <button class="submit-btn" onclick="handleSubmit(event)">Send Message</button>
+      </div>
+    </div>
+
+    <div class="reveal reveal-delay-2">
+      <a href="https://maps.google.com/?q=62+Gulshan+Avenue+Road+130+Gulshan+Dhaka" target="_blank" class="map-placeholder">
+        <div class="map-pin">📍</div>
+        <div class="map-address">62 Gulshan Avenue<br>Road No-130, Gulshan-1<br>Dhaka-1212</div>
+        <span class="map-cta">Open in Google Maps →</span>
+      </a>
+
+      <div style="margin-top: 30px; padding: 30px; border: 1px solid var(--border); background: rgba(201,168,76,0.02);">
+        <h4 style="font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; font-weight: 300; margin-bottom: 20px;">Also Available At</h4>
+        <div style="display: flex; flex-direction: column; gap: 14px;">
+          <div style="display: flex; justify-content: space-between; padding-bottom: 14px; border-bottom: 1px solid var(--border);">
+            <div>
+              <div style="font-size: 0.75rem; color: var(--gold); letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 4px;">Barisal</div>
+              <div style="font-size: 0.88rem; color: rgba(250,249,246,0.6);">B2 Fashion Barisal Branch</div>
+            </div>
+            <span style="color: var(--mid); font-size: 0.8rem;">Open</span>
+          </div>
+          <div style="display: flex; justify-content: space-between;">
+            <div>
+              <div style="font-size: 0.75rem; color: var(--gold); letter-spacing: 0.15em; text-transform: uppercase; margin-bottom: 4px;">Chittagong</div>
+              <div style="font-size: 0.88rem; color: rgba(250,249,246,0.6);">B2 Fashion Chittagong Branch</div>
+            </div>
+            <span style="color: var(--mid); font-size: 0.8rem;">Open</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <a href="#home" class="logo">B<span>2</span> Fashion</a>
+      <p class="footer-tagline">
+        Where export-quality fashion meets the discerning taste of Dhaka. Visit us at Gulshan-1 and discover collections that define your style.
+      </p>
+      <div class="social-links">
+        <a href="#" class="social-link" title="Facebook">f</a>
+        <a href="#" class="social-link" title="Instagram">ig</a>
+        <a href="#" class="social-link" title="WhatsApp">w</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Navigate</h4>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#collections">Collections</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Collections</h4>
+      <ul>
+        <li><a href="#collections">Women's Wear</a></li>
+        <li><a href="#collections">Men's Fashion</a></li>
+        <li><a href="#collections">Bags & Accessories</a></li>
+        <li><a href="#collections">Ladies Footwear</a></li>
+        <li><a href="#collections">New Arrivals</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="#contact">Gulshan-1 Store</a></li>
+        <li><a href="#contact">Barisal Branch</a></li>
+        <li><a href="#contact">Chittagong Branch</a></li>
+        <li><a href="https://www.b2trendbd.com" target="_blank">b2trendbd.com</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span class="footer-copy">© 2024 B2 Fashion. 62 Gulshan Avenue, Road No-130, Gulshan-1, Dhaka-1212, Bangladesh.</span>
+    <div class="footer-links">
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+      <a href="#">Sitemap</a>
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>
